@@ -1,0 +1,76 @@
+/*
+* Meredith Frazier
+* May 7, 2019
+* Girl Develop It CL03
+*/
+
+/* The universal selector */
+
+*{
+
+}
+
+/* Body properties here */
+
+body {
+
+    background-color: #FFE1DF; /* This is the background color of the entire page. */
+    font-family: sans-serif, arial, serif; /* These are the default fonts that the web page will have, in order of availability. */
+}
+
+h1 {
+    
+    font-family: cursive; /* This is the font style of the h1 section. */
+    
+}
+
+h2 {
+    
+    font-family: cursive; /* This is the font style of the h2 section. */
+    
+}
+
+header {
+    
+    text-indent: 30%;
+    background-color: #ef636a; /* This is the background color of the header section. */
+    
+}
+
+
+/* This is the default link style before the page is visited. */
+a:link {
+    
+    color: blue;
+    text-decoration: underline;
+}
+
+/* This is the default link style after the page is visited. */
+a:visited {
+    
+    color: blue;
+    text-decoration: underline;
+}
+
+/* This is the link style while the mouse is over the link. */
+a:hover, a:focus {
+    
+    color: #F471E2;
+    text-decoration: underline;
+    font-size: 30px;
+    
+}
+
+/* This is the link style when the mouse is pressing on the link. */
+a:active {
+    
+    color: #F471E2;
+    text-decoration: underline;
+    font-size: 30px;
+    
+}
+
+
+#logo {height: 135px; width: 500px;} /* This is the size of the first (logo) image. */
+#boyfriend {height: 250px; width: 350px; float: right;}  /* This is the size and placement of the second (boyfriend) image. */
+#girls {height: 250px; width: 350px; float: right;} /* This is the size and placement of the third (girls) image. */
